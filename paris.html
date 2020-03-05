@@ -2,7 +2,7 @@
 
   <header class="header">
     <h1 class="heading">Paris</h1>
-    <p class="body-text">
+    <pre> class="body-text">
     You know, I sometimes think, how is anyone ever gonna come up with a book, 
     or a painting, or a symphony, or a sculpture that can compete with a great city. 
     You can’t. Because you look around and every street, every boulevard, 
@@ -12,134 +12,9 @@
     but from way out in space you can see these lights, the cafés, 
     people drinking and singing. For all we know, Paris is the hottest 
     spot in the universe. -Owen Wilson 
-    </p>
+    </pre>
   </header>
 
-  /* CSS reset */
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  box-sizing: border-box;
-  position: relative;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-/* Typography --------------------------------------------*/
-
-body {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.heading {
-  margin-bottom: 3rem;
-}
-
-.body-text {
-  font-size: 1.6rem;
-  line-height: 2.5rem;
-  margin: 0 auto;
-  width: 70%;
-}
-
-.footer-text {
-  color: #fff;
-  font-size: 1.5rem;
-}
-
-/* Header --------------------------------------------*/
-
-.header {
-  margin: 0 auto;
-  padding: 3rem 0;
-  width: 65%;
-}
-
-/* Footer --------------------------------------------*/
-
-.footer {
-  background-color: #333;
-   margin-top: 3rem;
-  padding: 2rem 0;
-  width: 100%;
-}
-
-/* Grids --------------------------------------------*/
-
-.container {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(12, 150px);
-  margin: 0 auto;
-  max-width: 90%;
-  padding: 3rem 0;
-}
-
-/* Grid images --------------------------------------------*/
-
-.img {
-  border-radius: 1rem;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-/* Grid items --------------------------------------------*/
-
-.item-4 {
-  grid-row: 2/5;
-}
-
-.item-5 {
-  grid-row: 2/6;
-}
-
-.item-6 {
-  grid-row: 2/4;
-}
-
-.item-7 {
-  grid-row: 5/6;
-}
-
-.item-8 {
-  grid-row: 4/6;
-}
-
-.item-9 {
-  grid-row: 6/11;
-}
-
-.item-10 {
-  grid-row: 6/7;
-}
-
-.item-11 {
-  grid-row: 6/9;
-}
-
-.item-12 {
-  grid-row: 7/12;
-}
-
-.item-13 {
-  grid-row: 9/13;
-}
-
-.item-14 {
-  grid-row: 11/13;
-}
 
   <main class="container">
     <div class="item-1">
